@@ -13,7 +13,7 @@
     "react": "^17.0.1",
     "react-dom": "^17.0.1",
     "react-loader-spinner": "^4.0.0",
-    "react-loading-skeleton": "^2.1.1",
+    "react-loading-skeleton": "^2.2.0",
     "react-router-dom": "^5.2.0",
     "react-scripts": "4.0.1",
     "web-vitals": "^0.2.4"
@@ -40,8 +40,8 @@
     "watch:css": "postcss src/styles/tailwind.css -o src/styles/app.css --watch",
     "react-scripts:start": "sleep 5 && react-scripts start",
     "react-scripts:dist": "react-scripts build",
-    "start": "run-p watch:css react-scripts:start",
-    "build": "run-s build:css react-scripts:dist",
+    "start": "node api.js && run-p watch:css react-scripts:start",
+    "build": "node api.js && run-s build:css react-scripts:dist",
     "test": "react-scripts test",
     "eject": "react-scripts eject"
   },
