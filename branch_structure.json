@@ -1,0 +1,21 @@
+{
+  "default_branch": "master",
+  "branches": [
+    "dependabot/npm_and_yarn/tar-6.1.6",
+    "imgbot",
+    "master",
+    "origin"
+  ],
+  "parent": {
+    "dependabot/npm_and_yarn/tar-6.1.6": "master",
+    "imgbot": "master",
+    "master": null,
+    "origin": "master"
+  },
+  "order": [
+    "master",
+    "dependabot/npm_and_yarn/tar-6.1.6",
+    "imgbot",
+    "origin"
+  ]
+}
